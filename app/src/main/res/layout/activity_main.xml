@@ -35,7 +35,7 @@
         android:id="@+id/buttonO4O"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button O4O"
+        android:text="but, hole"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
