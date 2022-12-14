@@ -8,7 +8,6 @@ import android.location.LocationListener;
 import android.location.LocationManager;
 import android.provider.Settings;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
 import android.os.Bundle;
 import android.os.Message;
 import android.os.Handler;
@@ -96,9 +95,9 @@ public class MainActivity extends AppCompatActivity {
     private void updateShow(Location location) {
         if (location != null) {
             StringBuilder sb = new StringBuilder();
-            sb.append("当前的位置信息：\n");
-            sb.append("精度：" + location.getLongitude() + "\n");
-            sb.append("纬度：" + location.getLatitude() + "\n");
+            sb.append("目前位置：\n");
+            sb.append("經度：" + location.getLongitude() + "\n");
+            sb.append("緯度：" + location.getLatitude() + "\n");
             sb.append("高度：" + location.getAltitude() + "\n");
             sb.append("速度：" + location.getSpeed() + "\n");
             sb.append("方向：" + location.getBearing() + "\n");
