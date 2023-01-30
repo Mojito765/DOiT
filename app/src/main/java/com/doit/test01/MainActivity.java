@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void changeTextViewValueRandomlyOnButtonClick() {
-        final String[] manyDifferentStrings = {"啊~", "黏黏的", "%%%", "有同學 麥克轟沒關哦"};
+        final String[] manyDifferentStrings = {"R~", "黏黏的", "%%%", "有同學 麥克轟沒關哦"};
 
         final TextView changText = (TextView) findViewById(R.id.text_to_change);
         Button changeTextButton = (Button) findViewById(R.id.change_text_button);
