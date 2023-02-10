@@ -1,5 +1,4 @@
 <resources>
     <string name="app_name">App</string>
     <string name="text_to_change">Good morning</string>
-    <string name="change_text">Don\'t touch</string>
 </resources>
